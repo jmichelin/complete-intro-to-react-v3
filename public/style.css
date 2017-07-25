@@ -522,72 +522,72 @@ pre {
 }
 
 // .search > div > a {
-//   width: 30%;
-//   height: 0;
-//   padding-bottom: 19.8%;
-//   overflow: hidden;
-//   margin-bottom: 3%;
-//   border: 2px solid #333;
-//   border-radius: 4px;
-//   color: #333;
-//   text-decoration: none;
-// }
+   //   width: 30%;
+   //   height: 0;
+   //   padding-bottom: 19.8%;
+   //   overflow: hidden;
+   //   margin-bottom: 3%;
+   //   border: 2px solid #333;
+   //   border-radius: 4px;
+   //   color: #333;
+   //   text-decoration: none;
+   // }
 
 // .search > div > a {
-//   width: 100%;
-//   padding-bottom: 70%;
-//   height: 0;
-//   overflow: inherit;
-//   margin-bottom: inherit;;
-//   border: none;
-//   border-radius: inherit;
-// }
+   //   width: 100%;
+   //   padding-bottom: 70%;
+   //   height: 0;
+   //   overflow: inherit;
+   //   margin-bottom: inherit;;
+   //   border: none;
+   //   border-radius: inherit;
+   // }
 
 // .show-card {
-//   float: left;
-//   margin-right: 2%;
-//   border: 2px solid #333;
-//   border-radius: 4px;
-//   text-align: left;
-//   width: 32%;
-//   height: 0;
-//   padding-bottom: 19.8%;
-//   overflow: hidden;
-//   margin-bottom: 2%;
-// }
+   //   float: left;
+   //   margin-right: 2%;
+   //   border: 2px solid #333;
+   //   border-radius: 4px;
+   //   text-align: left;
+   //   width: 32%;
+   //   height: 0;
+   //   padding-bottom: 19.8%;
+   //   overflow: hidden;
+   //   margin-bottom: 2%;
+   // }
 
 // .show-card:nth-child(3n), .search > div > a:nth-child(3n) > .show-card {
-//   margin-right: 0;
-// }
+   //   margin-right: 0;
+   // }
 
 // .show-card > img {
-//   width: 46%;
-//   float: left;
-// }
+   //   width: 46%;
+   //   float: left;
+   // }
 
 // .show-card > div{
-//   display: block;
-//   float: right;
-//   width: 52%;
-//   overflow-y: scroll;
-// }
+   //   display: block;
+   //   float: right;
+   //   width: 52%;
+   //   overflow-y: scroll;
+   // }
 
 // .show-card > div > h3 {
-//   margin-top: 0;
-//   margin-bottom: 5px;
-// }
+   //   margin-top: 0;
+   //   margin-bottom: 5px;
+   // }
 
 // .show-card > div > h4 {
-//   margin-top: 0;
-//   margin-bottom: 5px;
-//   color: #666;
-//   font-size: 13px;
-// }
+   //   margin-top: 0;
+   //   margin-bottom: 5px;
+   //   color: #666;
+   //   font-size: 13px;
+   // }
 
 // .show-card > div > p {
-//   margin: 0;
-//   font-size: 13px;
-}
+   //   margin: 0;
+   //   font-size: 13px;
+   }
 
 .search > header + div {
   margin-top: 25px;
@@ -665,16 +665,16 @@ header > input {
 }
 
 @-moz-keyframes spin {
-    from { -moz-transform: rotate(0deg); }
-    to { -moz-transform: rotate(360deg); }
+  from { -moz-transform: rotate(0deg); }
+  to { -moz-transform: rotate(360deg); }
 }
 @-webkit-keyframes spin {
-    from { -webkit-transform: rotate(0deg); }
-    to { -webkit-transform: rotate(360deg); }
+  from { -webkit-transform: rotate(0deg); }
+  to { -webkit-transform: rotate(360deg); }
 }
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
 
 .details > section > * {
