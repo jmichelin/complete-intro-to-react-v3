@@ -1,7 +1,8 @@
 // @flow
 import moxios from "moxios";
 
-import { setSearchTerm, addApiData, getApiDetails } from "../actionCreators";
+import { setSearchTerm, addApiData } from "../actionCreators";
+import getApiDetails from "../asyncActions";
 
 const strangerThings = {
   title: "Stranger Things",
@@ -12,15 +13,12 @@ const strangerThings = {
   trailer: "9Egf5U8xLo8",
   rating: "8.8"
 };
-
 test("setSearchTerm", () => {
   expect(setSearchTerm("New York")).toMatchSnapshot();
 });
-
 test("addApiData", () => {
   expect(addApiData(strangerThings)).toMatchSnapshot();
 });
-
 test("getApiDetails", (done: Function) => {
   const dispatchMock = jest.fn();
   moxios.withMock(() => {
